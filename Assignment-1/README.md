@@ -1,7 +1,7 @@
 UPC - Randomized Algorithms course
 A.Y. 2024/2025
 
-Assignment #1: simulation of a Galton board
+## Assignment #1: simulation of a Galton board
 
 This repository contains all the materials delivered for the first assignment in the scope of the Randomized Algorithms course at UPC.
 In particular:
