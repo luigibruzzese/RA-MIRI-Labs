@@ -1,5 +1,4 @@
-UPC - Randomized Algorithms course
-A.Y. 2024/2025
+UPC - Randomized Algorithms course - A.Y. 2024/2025
 
 ## Assignment #1: simulation of a Galton board
 
