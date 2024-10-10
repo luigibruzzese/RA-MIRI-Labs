@@ -9,4 +9,8 @@ In particular:
 
 The script can be run from a terminal with the following instruction:
   python3 assignment.py [--N=5000] [--n=500] [--binomial] [--gaussian]
-where the strings enclosed in square brackets are optional and refer to:
+where the strings enclosed in square brackets are optional and can be used for different purposes. In particular:
+- --N=value sets the value of the number of balls N. If not provided, the default value is 500;
+- --n=value sets the dimension of the board n (or, equivantly, the number of cells in which the balls can fail). If not provided, the default value is 50;
+- --binomial makes the program show the binomial approximation (with p = 0.5, see the report for more details), and its MSE with respect to the real data;
+- --gaussian makes the program show the gaussian approximation of the binomial one.
