@@ -15,3 +15,5 @@ where the strings enclosed in square brackets are optional and can be used for d
 - --binomial makes the program show the binomial approximation (with p = 0.5, see the report for more details), and its MSE with respect to the real data;
 - --gaussian makes the program show the gaussian approximation of the binomial one;
 - --p=float sets the probability, for each ball, of falling to the right at each of the n steps. If not provided, the default value is 0.5.
+
+Notice that the version that has been used is python3.11. Different versions can require further installations of libraries (such as matplotlib, random, scipy) that are used in the script to achieve the provided results.
