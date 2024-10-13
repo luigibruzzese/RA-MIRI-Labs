@@ -4,9 +4,9 @@ UPC - Randomized Algorithms course - A.Y. 2024/2025
 
 This repository contains all the materials delivered for the first assignment in the scope of the Randomized Algorithms course at UPC.
 In particular:
-- [Bruzzese_Luigi-galtonbox.pdf]([https://www.google.it](https://github.com/luigibruzzese/RA-MIRI-Labs/blob/7f13e9cc5eeba2620d500370810d8bc02638ff1d/Assignment-1/Bruzzese_Luigi-galtonbox.pdf]) is a report that explains the whole process for fulfilling the assignment;
-- [assignment1.py]([https://www.google.it](https://github.com/luigibruzzese/RA-MIRI-Labs/blob/7f13e9cc5eeba2620d500370810d8bc02638ff1d/Assignment-1/assignment1.py]) is the script used to show the results explained in the report;
-- [img]([https://www.google.it](https://github.com/luigibruzzese/RA-MIRI-Labs/blob/7f13e9cc5eeba2620d500370810d8bc02638ff1d/Assignment-1/img]) is a directory that contains the images used in the report (following the same notation), that can be used to see the provided results in a bigger window.
+- [Bruzzese_Luigi-galtonbox.pdf](https://github.com/luigibruzzese/RA-MIRI-Labs/blob/7f13e9cc5eeba2620d500370810d8bc02638ff1d/Assignment-1/Bruzzese_Luigi-galtonbox.pdf) is a report that explains the whole process for fulfilling the assignment;
+- [assignment1.py](https://github.com/luigibruzzese/RA-MIRI-Labs/blob/7f13e9cc5eeba2620d500370810d8bc02638ff1d/Assignment-1/assignment1.py) is the script used to show the results explained in the report;
+- [img](https://github.com/luigibruzzese/RA-MIRI-Labs/blob/7f13e9cc5eeba2620d500370810d8bc02638ff1d/Assignment-1/img) is a directory that contains the images used in the report (following the same notation), that can be used to see the provided results in a bigger window.
 
 The script can be run from a terminal with the following instruction:
   python3 assignment1.py [--N=integer] [--n=integer] [--binomial] [--gaussian] [--p=float]
