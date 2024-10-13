@@ -17,23 +17,20 @@ parser.add_argument("--gaussian", help="To print and calculate the gaussian appr
 
 args=parser.parse_args()
 
-def move():
-    return random.randint(0,1)
-
 # Taking N = number of balls
-if(args.N):
+if(args.N and int(args.N) > 0):
     N = int(args.N)   
 else:
     N = 500
 
 # Taking n = dimension of the board
-if(args.n):
+if(args.n and int(args.n) > 0):
     n = int(args.n)     
 else:
     n = 50
 
 # Taking p = probability of going to the right
-if(args.p):
+if(args.p and float(args.p) > 0 and float(args.p) <= 1):
     p = float(args.p)
 else:
     p = 0.5
@@ -47,22 +44,20 @@ for i in range(1, N):
         position[random.choices([0,1], [1-p, p])[0]] += 1
     bag[position[1]] += 1
 
-# x contains the number from 0 to n-1 to indicate the n final cells.
+# x contains the numbers from 0 to n-1 that indicate the n final cells.
 x = np.arange(len(bag))
 bag = np.array(bag)
 normalizedBag = np.divide(bag, N)
 
-figura, grafico = plt.subplots()
-grafico.bar(x, normalizedBag, label="Data", color="y")
-#plt.plot(x, normalizedBag, label="Real function")
+figure, graph = plt.subplots()
+graph.bar(x, normalizedBag, label="Data", color="y")
 
 ###################### BINOMIAL APPROXIMATION using p
 if(args.binomial):
     binPoints = []
     for i in x:
         binPoints.append(binom(n, i)*(p**i)*((1-p)**(n-i)))
-    #plt.scatter(x, binPoints)
-    grafico.bar(x, binPoints, 0.2, label="Binomial approximation", color="b")
+    graph.bar(x, binPoints, 0.2, label="Binomial approximation", color="b")
 
     # MSE between binomial and points
     MSE_bin_points = 0
@@ -88,14 +83,14 @@ if(args.gaussian):
         print("MSE_bin_gauss = " + str(MSE_bin_gauss))
 
 # Adding an additional scale on the y-axis to see the original values of the number of balls fallen into the cells
-y2 = grafico.twinx()
-y2.set_ylim([0, grafico.get_ylim()[1] * N])
+y2 = graph.twinx()
+y2.set_ylim([0, graph.get_ylim()[1] * N])
 y2.set_ylabel('Number of balls')
 
-#Plotting the graph
-grafico.set_ylabel('Number of balls / N')
-grafico.set_xlabel('Cell')
-figura.tight_layout()
-grafico.legend()
+# Plotting the graph
+graph.set_ylabel('Number of balls / N')
+graph.set_xlabel('Cell')
+figure.tight_layout()
+graph.legend()
 
 plt.show()
