@@ -5,7 +5,7 @@ UPC - Randomized Algorithms course - A.Y. 2024/2025
 This repository contains all the materials delivered for the second assignment in the scope of the Randomized Algorithms course at UPC.
 In particular:
 - [luigi.bruzzese-balancedalloc.pdf](https://github.com/luigibruzzese/RA-MIRI-Labs/blob/7f13e9cc5eeba2620d500370810d8bc02638ff1d/Assignment-2/luigi.bruzzese-balancedalloc.pdf) is a report that explains the whole process for fulfilling the assignment;
-- [assignment2.py](https://github.com/luigibruzzese/RA-MIRI-Labs/blob/7f13e9cc5eeba2620d500370810d8bc02638ff1d/Assignment-2/assignment2.py) is the script used to show the results explained in the report.
+- [assignment2.py](Assignment-2/assignment2.py) is the script used to show the results explained in the report.
 
 The script can be run from a terminal with the following instruction:
   python3 assignment2.py [--n N] [--m M] [--T T] [--d D] [--beta BETA] [--b B] [--k {1,2}] [--analysisStep ANALYSISSTEP]
