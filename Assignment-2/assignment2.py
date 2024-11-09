@@ -154,9 +154,10 @@ if args.analysisStep:
     # x_values = [x for x in range(m, n, int(args.analysisStep))]
 
     # def RS98(n, m):
-    #     return n/m+numpy.sqrt(n*numpy.log10(m)/m)
+    #     return numpy.sqrt(n*numpy.log(m)/m)
     # def withD(n, m):
-    #     return n/m+numpy.log10(numpy.log10(m))/numpy.log10(int(args.d))
+    #     const = 0.9
+    #     return numpy.log10(numpy.log10(m))/numpy.log10(int(args.d)) + const
 
     # d-choice
     # plt.plot(x_values, [RS98(x,m) for x in x_values ], '--r', label="RS98")           # RS-98 for d = 1, with n >> m
@@ -177,3 +178,8 @@ if args.analysisStep:
     # plt.plot(x_values, [int(args.k)*numpy.log10(m**(1/int(args.k))) for i in range(len(x_values))])
 
     plt.show()
+
+# Gon81
+# plt.scatter(n, averageGap)
+# plt.scatter(n, numpy.log10(n)/numpy.log10(numpy.log10(n)), marker='x')
+# plt.show()
