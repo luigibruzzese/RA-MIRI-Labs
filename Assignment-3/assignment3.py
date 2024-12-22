@@ -60,15 +60,14 @@ def LogLog(file, alfa, m):
 
     return alfa * m * 2**(sum(R[i] for i in range(m))/m)
 
-
-
-
+# Recordinality: SE = sqrt((n/(ke))^1/k - 1)
 # memory: klogn (hash values in S) + loglogn (the counter R)
-# accuracy = sqrt((n/(ke))^1/k - 1)
+# uncomment lines 78 and 81 to use it WITHOUT hash functions (T should be set to 1 in that case)
 def Recordinality(file):
     rfh = randomhash.RandomHashFamily()
     k = args.param
     R = 0
+    # using SortedList to speed up the execution
     S = SortedList()
     while R < k:              # complexity: O(k*logK)
         word = file.readline()
@@ -86,8 +85,7 @@ def Recordinality(file):
             R += 1
     return k*(1+1/k)**(R-k+1) - 1
 
-# accuracy: 1.20/sqrt(m)
-# bounded by maxS!
+# Adaptive Sampling: SE = 1.20/sqrt(m)
 # memory: maxS*logn (hash values in S) + loglogn (the depth p)
 def AdaptiveSampling(file):
     rfh = randomhash.RandomHashFamily()
@@ -114,7 +112,7 @@ if __name__ == "__main__":
     Z_s = []
     if args.alg == "HLL":
         print("-------- CONFIGURATION selected: algorithm HyperLogLog, " + str(T) + " rounds, m = " + str(args.param) + ". --------")
-        # Calculating alfa to do it only once (it depends on m)
+        # Calculating alpha to do it only once (it depends on m)
         m = args.param
         alfa = (m * scipy.integrate.quad(lambda u: (np.log2((2+u)/(1+u)))**m, 0, np.inf)[0])**(-1)
         for t in range(T):
@@ -124,7 +122,7 @@ if __name__ == "__main__":
             file.seek(0)
     elif args.alg == "LL":
         print("-------- CONFIGURATION selected: algorithm LogLog, " + str(T) + " rounds, m = " + str(args.param) + ". --------")
-        # Calculating alfa to do it only once (it depends on m)
+        # Calculating alpha to do it only once (it depends on m)
         m = args.param
         alfa = (math.gamma(-1/m) * (1-2**(1/m)) / math.log(2)) ** (-m)
         for t in range(T):
@@ -148,4 +146,3 @@ if __name__ == "__main__":
             file.seek(0)
 
     print("Estimated value of Z after " + str(T) + " rounds = " + str(np.mean(Z_s)) + ", emp. std. dev = " + str(np.std(Z_s, ddof = 1)) + ".")
-    # print("Estimated value of Z = " + str(np.mean(Z_s)))
