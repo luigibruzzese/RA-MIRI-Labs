@@ -25,7 +25,7 @@ In particular:
     --realCardinality=positive integer: if set, instead of estimating the cardinality for the dataset provided using the defined model, the real cardinality is used to estimate delta; in that case, the parameter model is not considered, and the output will be the value of delta estimated.
 - [zipf](https://github.com/luigibruzzese/UPC-RA-MIRI-Lab/blob/main/Assignment-3/zipf) is the folder that contains:
   - [generateSyntheticDS.py](https://github.com/luigibruzzese/UPC-RA-MIRI-Lab/blob/main/Assignment-3/zipf/generateSyntheticDS.py) is the script used for generating the corresponding .txt files (present in the same folder) with words stream that follow the Zipf law.
-  - It can be run from a terminal with the following instructions:
+    It can be run from a terminal with the following instructions:
     generateSyntheticDS.py [-h] [--alpha DATA] [--n N] [--N N]
     where alpha, n and N are, respectively, the parameter for the Zipf law, the cardinality of the stream to be generated and the number of tokens to be contained in the data stream (N >= n).
     It will output the stream generated in a file called zipf_alpha_n_N where alpha, n and N are the chosen parameters.
