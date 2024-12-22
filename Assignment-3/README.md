@@ -18,11 +18,11 @@ In particular:
   It can be run from a terminal with the following instruction:  
   experiment.py [-h] --data DATA [--T T] [--m M] [--model {1,2,3}] [--realCardinality REALCARDINALITY]  
   where:  
-    --data=string: sets the relative path of the file to be used as the data stream. The file should contain one entry for each line.
-    --T=positive integer: sets the number of times the algorithm is run for the prediction, each time with a different hash function. The default value is 1000;
-    --m=m: sets the parameter m to be used for the algorithm. The default value is 256;
-    --model={1,2,3}: sets the model to be used for estimating delta.
-    --realCardinality=positive integer: if set, instead of estimating the cardinality for the dataset provided using the defined model, the real cardinality is used to estimate delta; in that case, the parameter model is not considered, and the output will be the value of delta estimated.
+    - --data=string: sets the relative path of the file to be used as the data stream. The file should contain one entry for each line.
+    - --T=positive integer: sets the number of times the algorithm is run for the prediction, each time with a different hash function. The default value is 1000;
+    - --m=m: sets the parameter m to be used for the algorithm. The default value is 256;
+    - --model={1,2,3}: sets the model to be used for estimating delta.
+    - --realCardinality=positive integer: if set, instead of estimating the cardinality for the dataset provided using the defined model, the real cardinality is used to estimate delta; in that case, the parameter model is not considered, and the output will be the value of delta estimated.
 - [zipf](https://github.com/luigibruzzese/UPC-RA-MIRI-Lab/blob/main/Assignment-3/zipf) is the folder that contains:
   - [generateSyntheticDS.py](https://github.com/luigibruzzese/UPC-RA-MIRI-Lab/blob/main/Assignment-3/zipf/generateSyntheticDS.py) is the script used for generating the corresponding .txt files (present in the same folder) with words stream that follow the Zipf law.  
     It can be run from a terminal with the following instructions:  
