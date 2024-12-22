@@ -1,0 +1,64 @@
+-------- CONFIGURATION selected: algorithm HyperLogLog, 300 rounds, m = 4. --------
+Estimated value of Z after 300 rounds = 5791.841049489631, emp. std. dev = 3674.294685024727.
+-------- CONFIGURATION selected: algorithm HyperLogLog, 300 rounds, m = 8. --------
+Estimated value of Z after 300 rounds = 5944.998383102123, emp. std. dev = 2740.29426118617.
+-------- CONFIGURATION selected: algorithm HyperLogLog, 300 rounds, m = 16. --------
+Estimated value of Z after 300 rounds = 5703.286575845542, emp. std. dev = 1648.3447208474604.
+-------- CONFIGURATION selected: algorithm HyperLogLog, 300 rounds, m = 32. --------
+Estimated value of Z after 300 rounds = 5764.906942827531, emp. std. dev = 1118.509438588127.
+-------- CONFIGURATION selected: algorithm HyperLogLog, 300 rounds, m = 64. --------
+Estimated value of Z after 300 rounds = 5765.615276176144, emp. std. dev = 748.3606841057552.
+-------- CONFIGURATION selected: algorithm HyperLogLog, 300 rounds, m = 128. --------
+Estimated value of Z after 300 rounds = 5748.323093670723, emp. std. dev = 530.7513575828232.
+-------- CONFIGURATION selected: algorithm HyperLogLog, 300 rounds, m = 256. --------
+Estimated value of Z after 300 rounds = 5762.846045397828, emp. std. dev = 347.3926452549469.
+-------- CONFIGURATION selected: algorithm HyperLogLog, 300 rounds, m = 512. --------
+Estimated value of Z after 300 rounds = 5729.896345532882, emp. std. dev = 238.8919047674348.
+-------- CONFIGURATION selected: algorithm Recordinality, 300 rounds, k = 4. --------
+Estimated value of Z after 300 rounds = 5418.100368566272, emp. std. dev = 7126.495029550207.
+-------- CONFIGURATION selected: algorithm Recordinality, 300 rounds, k = 8. --------
+Estimated value of Z after 300 rounds = 5659.823522627552, emp. std. dev = 4885.727037241884.
+-------- CONFIGURATION selected: algorithm Recordinality, 300 rounds, k = 16. --------
+Estimated value of Z after 300 rounds = 6066.883324749714, emp. std. dev = 4259.047957340093.
+-------- CONFIGURATION selected: algorithm Recordinality, 300 rounds, k = 32. --------
+Estimated value of Z after 300 rounds = 5849.627537617715, emp. std. dev = 2336.0052514003546.
+-------- CONFIGURATION selected: algorithm Recordinality, 300 rounds, k = 64. --------
+Estimated value of Z after 300 rounds = 5717.4464849733695, emp. std. dev = 1148.4954081491867.
+-------- CONFIGURATION selected: algorithm Recordinality, 300 rounds, k = 128. --------
+Estimated value of Z after 300 rounds = 5834.888291527576, emp. std. dev = 724.1858891493099.
+-------- CONFIGURATION selected: algorithm Recordinality, 300 rounds, k = 256. --------
+Estimated value of Z after 300 rounds = 5844.897018386181, emp. std. dev = 431.5469507626587.
+-------- CONFIGURATION selected: algorithm Recordinality, 300 rounds, k = 512. --------
+Estimated value of Z after 300 rounds = 5814.130430334951, emp. std. dev = 158.98352050875957.
+-------- CONFIGURATION selected: algorithm LogLog, 300 rounds, m = 4. --------
+Estimated value of Z after 300 rounds = 6288.775943658023, emp. std. dev = 5999.064684393164.
+-------- CONFIGURATION selected: algorithm LogLog, 300 rounds, m = 8. --------
+Estimated value of Z after 300 rounds = 5842.675979064986, emp. std. dev = 3068.627541026381.
+-------- CONFIGURATION selected: algorithm LogLog, 300 rounds, m = 16. --------
+Estimated value of Z after 300 rounds = 5771.694145891826, emp. std. dev = 1976.7459932165157.
+-------- CONFIGURATION selected: algorithm LogLog, 300 rounds, m = 32. --------
+Estimated value of Z after 300 rounds = 5704.780816095907, emp. std. dev = 1335.7635623007016.
+-------- CONFIGURATION selected: algorithm LogLog, 300 rounds, m = 64. --------
+Estimated value of Z after 300 rounds = 5747.560665445441, emp. std. dev = 933.110918218697.
+-------- CONFIGURATION selected: algorithm LogLog, 300 rounds, m = 128. --------
+Estimated value of Z after 300 rounds = 5695.68547836285, emp. std. dev = 690.2707894514477.
+-------- CONFIGURATION selected: algorithm LogLog, 300 rounds, m = 256. --------
+Estimated value of Z after 300 rounds = 5712.6470309576725, emp. std. dev = 455.0152285512024.
+-------- CONFIGURATION selected: algorithm LogLog, 300 rounds, m = 512. --------
+Estimated value of Z after 300 rounds = 5749.8401095320105, emp. std. dev = 318.62939845013676.
+-------- CONFIGURATION selected: algorithm Adaptive Sampling, 300 rounds, m = 4. --------
+Estimated value of Z after 300 rounds = 5980.16, emp. std. dev = 4058.2911705729666.
+-------- CONFIGURATION selected: algorithm Adaptive Sampling, 300 rounds, m = 8. --------
+Estimated value of Z after 300 rounds = 5973.333333333333, emp. std. dev = 2756.5153385378076.
+-------- CONFIGURATION selected: algorithm Adaptive Sampling, 300 rounds, m = 16. --------
+Estimated value of Z after 300 rounds = 5917.866666666667, emp. std. dev = 1859.2288064512168.
+-------- CONFIGURATION selected: algorithm Adaptive Sampling, 300 rounds, m = 32. --------
+Estimated value of Z after 300 rounds = 5870.933333333333, emp. std. dev = 1280.142689928541.
+-------- CONFIGURATION selected: algorithm Adaptive Sampling, 300 rounds, m = 64. --------
+Estimated value of Z after 300 rounds = 5902.506666666667, emp. std. dev = 937.3987829180687.
+-------- CONFIGURATION selected: algorithm Adaptive Sampling, 300 rounds, m = 128. --------
+Estimated value of Z after 300 rounds = 5802.24, emp. std. dev = 619.9212343969089.
+-------- CONFIGURATION selected: algorithm Adaptive Sampling, 300 rounds, m = 256. --------
+Estimated value of Z after 300 rounds = 5838.293333333333, emp. std. dev = 462.8597098389492.
+-------- CONFIGURATION selected: algorithm Adaptive Sampling, 300 rounds, m = 512. --------
+Estimated value of Z after 300 rounds = 5864.373333333333, emp. std. dev = 334.6337397136428.
