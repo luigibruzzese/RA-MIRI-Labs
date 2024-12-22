@@ -12,7 +12,7 @@ def check_positive(value):
 
 parser = argparse.ArgumentParser()
 
-parser.add_argument("--data", help="The file with the data to be used (each line should be an entry).", default="datasets/midsummer-nights-dream.txt")
+parser.add_argument("--data", help="The file with the data to be used (each line should be an entry).", required=True)
 parser.add_argument("--T", help="Number of times the algorithm is run for the prediction.", default=300, type=check_positive)
 parser.add_argument("--m", help="Parameter m.", default=256, type=check_positive)
 parser.add_argument("--model", help="The model to be used for estimating delta.", default=1, type=int, choices=[1,2,3])

@@ -14,9 +14,9 @@ def check_positive(value):
 
 parser = argparse.ArgumentParser()
 parser.add_argument("--data", help="The file with the data to be used (each line should be an entry).", required=True)
-parser.add_argument("--alg", help="The algorithm to be used, either HyperLogLog (HLL) or Recordinality (REC).", choices=["HLL", "REC", "LL", "EXP", "AS"], required=True)
+parser.add_argument("--alg", help="The algorithm to be used, either HyperLogLog (HLL), Recordinality (REC), LogLog (LL) or Adaptive Sampling (AS).", choices=["HLL", "REC", "LL", "AS"], required=True)
 parser.add_argument("--T", help="Number of times the algorithm is run for the prediction.", default=1000, type=check_positive)
-parser.add_argument("--param", help="Parameter m for LL, HLL, EXP; k for REC; maxS for AS.", default=256, type=check_positive)
+parser.add_argument("--param", help="Parameter m for LL and HLL; k for REC; maxS for AS.", default=256, type=check_positive)
 
 args = parser.parse_args()
 T = args.T
