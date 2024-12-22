@@ -1,0 +1,49 @@
+PS C:\Users\luigi\Desktop\Anno II\Randomized algorithms\Lab\Assignment-3> & C:/Users/luigi/AppData/Local/Microsoft/WindowsApps/python3.11.exe "c:/Users/luigi/Desktop/Anno II/Randomized algorithms/Lab/Assignment-3/assignment3.py" --alg HLL --data 'zipf/zipf_1.0_700_100000.txt' --T 1000 --param 8  
+-------- CONFIGURATION selected: algorithm HyperLogLog, 1000 rounds, m = 8. --------
+Estimated value of Z after 1000 rounds = 685.800719554872, emp. std. dev = 295.7976426006729.
+PS C:\Users\luigi\Desktop\Anno II\Randomized algorithms\Lab\Assignment-3> & C:/Users/luigi/AppData/Local/Microsoft/WindowsApps/python3.11.exe "c:/Users/luigi/Desktop/Anno II/Randomized algorithms/Lab/Assignment-3/assignment3.py" --alg HLL --data 'zipf/zipf_1.0_700_100000.txt' --T 1000 --param 128
+-------- CONFIGURATION selected: algorithm HyperLogLog, 1000 rounds, m = 128. --------
+Estimated value of Z after 1000 rounds = 687.2345674055938, emp. std. dev = 49.65500206114185.
+PS C:\Users\luigi\Desktop\Anno II\Randomized algorithms\Lab\Assignment-3> & C:/Users/luigi/AppData/Local/Microsoft/WindowsApps/python3.11.exe "c:/Users/luigi/Desktop/Anno II/Randomized algorithms/Lab/Assignment-3/assignment3.py" --alg REC --data 'zipf/zipf_1.0_700_100000.txt' --T 1000 --param 64 
+-------- CONFIGURATION selected: algorithm Recordinality, 1000 rounds, k = 64. --------
+Estimated value of Z after 1000 rounds = 717.9712748592062, emp. std. dev = 88.74579342347397.
+PS C:\Users\luigi\Desktop\Anno II\Randomized algorithms\Lab\Assignment-3> & C:/Users/luigi/AppData/Local/Microsoft/WindowsApps/python3.11.exe "c:/Users/luigi/Desktop/Anno II/Randomized algorithms/Lab/Assignment-3/assignment3.py" --alg REC --data 'zipf/zipf_1.0_700_100000.txt' --T 1000 --param 128
+-------- CONFIGURATION selected: algorithm Recordinality, 1000 rounds, k = 128. --------
+Estimated value of Z after 1000 rounds = 750.3064117478337, emp. std. dev = 45.56688852908138.
+PS C:\Users\luigi\Desktop\Anno II\Randomized algorithms\Lab\Assignment-3> & C:/Users/luigi/AppData/Local/Microsoft/WindowsApps/python3.11.exe "c:/Users/luigi/Desktop/Anno II/Randomized algorithms/Lab/Assignment-3/assignment3.py" --alg LL --data 'zipf/zipf_1.0_700_100000.txt' --T 1000 --param 32  
+-------- CONFIGURATION selected: algorithm LogLog, 1000 rounds, m = 32. --------
+Estimated value of Z after 1000 rounds = 703.0055756257394, emp. std. dev = 174.0799882908545.
+PS C:\Users\luigi\Desktop\Anno II\Randomized algorithms\Lab\Assignment-3> & C:/Users/luigi/AppData/Local/Microsoft/WindowsApps/python3.11.exe "c:/Users/luigi/Desktop/Anno II/Randomized algorithms/Lab/Assignment-3/assignment3.py" --alg LL --data 'zipf/zipf_1.0_700_100000.txt' --T 1000 --param 64
+-------- CONFIGURATION selected: algorithm LogLog, 1000 rounds, m = 64. --------
+Estimated value of Z after 1000 rounds = 703.76794968171, emp. std. dev = 114.6456310425106.
+PS C:\Users\luigi\Desktop\Anno II\Randomized algorithms\Lab\Assignment-3> & C:/Users/luigi/AppData/Local/Microsoft/WindowsApps/python3.11.exe "c:/Users/luigi/Desktop/Anno II/Randomized algorithms/Lab/Assignment-3/assignment3.py" --alg AS --data 'zipf/zipf_1.0_700_100000.txt' --T 1000 --param 256
+-------- CONFIGURATION selected: algorithm Adaptive Sampling, 1000 rounds, m = 256. --------
+Estimated value of Z after 1000 rounds = 696.308, emp. std. dev = 84.8574447053523.
+PS C:\Users\luigi\Desktop\Anno II\Randomized algorithms\Lab\Assignment-3> & C:/Users/luigi/AppData/Local/Microsoft/WindowsApps/python3.11.exe "c:/Users/luigi/Desktop/Anno II/Randomized algorithms/Lab/Assignment-3/assignment3.py" --alg AS --data 'zipf/zipf_1.0_700_100000.txt' --T 1000 --param 512
+-------- CONFIGURATION selected: algorithm Adaptive Sampling, 1000 rounds, m = 512. --------
+Estimated value of Z after 1000 rounds = 701.792, emp. std. dev = 64.00691854496372.
+PS C:\Users\luigi\Desktop\Anno II\Randomized algorithms\Lab\Assignment-3> & C:/Users/luigi/AppData/Local/Microsoft/WindowsApps/python3.11.exe "c:/Users/luigi/Desktop/Anno II/Randomized algorithms/Lab/Assignment-3/assignment3.py" --alg HLL --data 'zipf/zipf_1.0_20000_30000.txt' --T 1000 --param 8   
+-------- CONFIGURATION selected: algorithm HyperLogLog, 1000 rounds, m = 8. --------
+Estimated value of Z after 1000 rounds = 20151.740872861603, emp. std. dev = 8626.298809703232.
+PS C:\Users\luigi\Desktop\Anno II\Randomized algorithms\Lab\Assignment-3> & C:/Users/luigi/AppData/Local/Microsoft/WindowsApps/python3.11.exe "c:/Users/luigi/Desktop/Anno II/Randomized algorithms/Lab/Assignment-3/assignment3.py" --alg HLL --data 'zipf/zipf_1.0_20000_30000.txt' --T 1000 --param 128
+-------- CONFIGURATION selected: algorithm HyperLogLog, 1000 rounds, m = 128. --------
+Estimated value of Z after 1000 rounds = 20154.600441587132, emp. std. dev = 1800.191257609392.
+PS C:\Users\luigi\Desktop\Anno II\Randomized algorithms\Lab\Assignment-3> & C:/Users/luigi/AppData/Local/Microsoft/WindowsApps/python3.11.exe "c:/Users/luigi/Desktop/Anno II/Randomized algorithms/Lab/Assignment-3/assignment3.py" --alg REC --data 'zipf/zipf_1.0_20000_30000.txt' --T 1000 --param 64 
+-------- CONFIGURATION selected: algorithm Recordinality, 1000 rounds, k = 64. --------
+Estimated value of Z after 1000 rounds = 19891.736682496434, emp. std. dev = 5514.958679983971.
+PS C:\Users\luigi\Desktop\Anno II\Randomized algorithms\Lab\Assignment-3> & C:/Users/luigi/AppData/Local/Microsoft/WindowsApps/python3.11.exe "c:/Users/luigi/Desktop/Anno II/Randomized algorithms/Lab/Assignment-3/assignment3.py" --alg REC --data 'zipf/zipf_1.0_20000_30000.txt' --T 1000 --param 128
+-------- CONFIGURATION selected: algorithm Recordinality, 1000 rounds, k = 128. --------
+Estimated value of Z after 1000 rounds = 20283.232513950607, emp. std. dev = 4178.740214584769.
+PS C:\Users\luigi\Desktop\Anno II\Randomized algorithms\Lab\Assignment-3> & C:/Users/luigi/AppData/Local/Microsoft/WindowsApps/python3.11.exe "c:/Users/luigi/Desktop/Anno II/Randomized algorithms/Lab/Assignment-3/assignment3.py" --alg LL --data 'zipf/zipf_1.0_20000_30000.txt' --T 1000 --param 32  
+-------- CONFIGURATION selected: algorithm LogLog, 1000 rounds, m = 32. --------
+Estimated value of Z after 1000 rounds = 19865.50301649899, emp. std. dev = 4505.276008488152.
+PS C:\Users\luigi\Desktop\Anno II\Randomized algorithms\Lab\Assignment-3> & C:/Users/luigi/AppData/Local/Microsoft/WindowsApps/python3.11.exe "c:/Users/luigi/Desktop/Anno II/Randomized algorithms/Lab/Assignment-3/assignment3.py" --alg LL --data 'zipf/zipf_1.0_20000_30000.txt' --T 1000 --param 64
+-------- CONFIGURATION selected: algorithm LogLog, 1000 rounds, m = 64. --------
+Estimated value of Z after 1000 rounds = 20091.534783344126, emp. std. dev = 3162.3879619487025.
+PS C:\Users\luigi\Desktop\Anno II\Randomized algorithms\Lab\Assignment-3> & C:/Users/luigi/AppData/Local/Microsoft/WindowsApps/python3.11.exe "c:/Users/luigi/Desktop/Anno II/Randomized algorithms/Lab/Assignment-3/assignment3.py" --alg AS --data 'zipf/zipf_1.0_20000_30000.txt' --T 1000 --param 256
+-------- CONFIGURATION selected: algorithm Adaptive Sampling, 1000 rounds, m = 256. --------
+Estimated value of Z after 1000 rounds = 19983.232, emp. std. dev = 1456.4257434287963.
+PS C:\Users\luigi\Desktop\Anno II\Randomized algorithms\Lab\Assignment-3> & C:/Users/luigi/AppData/Local/Microsoft/WindowsApps/python3.11.exe "c:/Users/luigi/Desktop/Anno II/Randomized algorithms/Lab/Assignment-3/assignment3.py" --alg AS --data 'zipf/zipf_1.0_20000_30000.txt' --T 1000 --param 512
+-------- CONFIGURATION selected: algorithm Adaptive Sampling, 1000 rounds, m = 512. --------
+Estimated value of Z after 1000 rounds = 19997.76, emp. std. dev = 1071.81034881355.
+PS C:\Users\luigi\Desktop\Anno II\Randomized algorithms\Lab\Assignment-3>
